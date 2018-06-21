@@ -8,15 +8,40 @@
 </head>
 <body>
   <header class="page-header">
-    <nav class="main-nav">
+    <h1 class="page-header__name">Fibras</h1>
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav__toggle">Открыть меню</button>
       <ul class="main-nav__list">
-        <li class="main-nav__item">Brand</li>
-        <li class="main-nav__item">Collection</li>
-        <li class="main-nav__item">Order</li>
+        <li class="main-nav__item">Коллекция</li>
+        <li class="main-nav__item">Бренд</li>
+        <li class="main-nav__item">Заказать</li>
+        <li class="main-nav__item">Контакты</li>
       </ul>
     </nav>
   </header>
-  <main class="page-main">Main</main>
+  <main class="page-main">
+    <section class="intro">
+      <h2 class="intro__name">Просто твоё новое платье</h2>
+      <p class="intro__info">... или характер?</p>
+    </section>
+    <section class="advantages">
+      <h2 class="advantages__name">Преимущества</h2>
+      <ul class="advantages__list">
+        <li class="advantages__item">Каждое платье уникально</li>
+        <li class="advantages__item">Простота и элегантность образа</li>
+        <li class="advantages__item">Удобство и удовольствие от ношения</li>
+      </ul>
+    </section>
+    <section class="collection">
+      <h2 class="collection__name">Коллекция</h2>
+      <div class="collection__list slider">
+        <div class="collection__item">
+          <h3 class="collection__item-name">Платье 1</h3>
+          <img src="img/dress1.jpg" alt="dress1">
+        </div>
+      </div>
+    </section>
+  </main>
   <aside class="page-sidebar">Sidebar</aside>
   <footer class="page-footer">Footer</footer>
 </body>
